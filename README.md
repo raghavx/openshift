@@ -1,9 +1,13 @@
-# openshift 
+# openshift on aws
 ## System Pre-Requisites 
 https://docs.openshift.com/container-platform/3.10/install/prerequisites.html
 
+## centos ami
+https://aws.amazon.com/marketplace/pp/B00O7WM7QW
+
 ## SSH 
 ssh -i "openshift.pem" centos@52.66.246.87
+
 ## install wget 
 yum install wget 
 
@@ -14,6 +18,7 @@ yum install vim
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 
 yum install docker-ce
+
 ## start the docker 
 systemctl start docker
 
