@@ -1,6 +1,7 @@
 # openshift on aws
 ## System Pre-Requisites 
 https://docs.openshift.com/container-platform/3.10/install/prerequisites.html
+https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md
 
 ## centos ami
 https://aws.amazon.com/marketplace/pp/B00O7WM7QW
